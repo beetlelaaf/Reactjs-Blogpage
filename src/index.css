@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.navbar {
+  font-family: Raleway;
+  font-weight: 200;
+}
+
+.content {
+  font-family: Raleway;
+  font-weight: 400;
+}
+
+.blogcontent {
+  font-weight: 400;
+}
+
+.blog-body {
+  background-color: #ffffff;
+  transition: 0.2s ease;
+}
+
+.blog a {
+  text-decoration: none;
+  color: black;
+}
+
+.blog-overview {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.blog-body:hover { 
+  -webkit-box-shadow: 5px 5px 10px 5px rgba(171,171,171,0.63);
+  -moz-box-shadow: 5px 5px 10px 5px rgba(171,171,171,0.63);
+  box-shadow: 5px 5px 10px 5px rgba(171,171,171,0.63);
+}
+
+.form-title, .form-author, .form-content {
+  width: 95%;
+  transition: 0.5s ease;
+}
+
+.form-title:focus, .form-author:focus, .form-content:focus {
+  width: 100%;
+}
+
+
